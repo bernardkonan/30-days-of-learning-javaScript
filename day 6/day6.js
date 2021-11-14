@@ -94,4 +94,35 @@ console.log(sumNums);
 
 console.log("----------------------------------------------------------");
 
-const webTechs = ["HTML", "CSS", "JavaScript", "React", "Redux", "Node", "MongoDB"];
+
+
+for (let tech of webTechs) {
+    console.log(tech.toUpperCase());
+}
+
+console.log("----------------------------------------------------------");
+
+// break -> it is used to interrupt a loop
+
+let k = 1;
+while (k < 100) {
+    console.log(`${k}- ${k}`);
+    if (k % 3 === 0 && k % 5 === 0) {
+        break; // interrupt the loop
+    }
+    k++;
+}
+
+console.log("----------------------------------------------------------");
+
+// continue -> it is used to skip a certain interations
+let odds = [];
+for (let i = 0; i < 100; i++) {
+    if (i % 2 === 0) {
+        continue
+    }
+    odds.push(i);
+}
+console.log('odds = ', odds);
+
+console.log("----------------------------------------------------------");
