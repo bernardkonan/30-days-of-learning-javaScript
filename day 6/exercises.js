@@ -17,200 +17,200 @@ const countries = [
 
 const webTechs = ["HTML", "CSS", "JavaScript", "React", "Redux", "Node", "MongoDB"];
 
-// // Exericse : Level 1
+// Exericse : Level 1
 
-// // 1 - 
-// // using for loop
-// for (let i = 0; i <= 10; i++) {
-//     console.log(i);
-// }
-// console.log("------------------------------------");
-// // using do while loop
-// let k = 0;
-// do {
-//     console.log(k);
-//     k++
-// } while (k <= 10)
-// console.log("------------------------------------");
-// // using while loop
-// let j = 0;
-// while (j <= 10) {
-//     console.log(j);
-//     j++
-// }
-// console.log("----------------------------------------------------------");
+// 1 - 
+// using for loop
+for (let i = 0; i <= 10; i++) {
+    console.log(i);
+}
+console.log("------------------------------------");
+// using do while loop
+let k = 0;
+do {
+    console.log(k);
+    k++
+} while (k <= 10)
+console.log("------------------------------------");
+// using while loop
+let j = 0;
+while (j <= 10) {
+    console.log(j);
+    j++
+}
+console.log("----------------------------------------------------------");
 
-// // 2-
-// // using for loop
-// for (let i_ = 10; i_ >= 0; i_--) {
-//     console.log(i_);
-// }
-// console.log("------------------------------------");
+// 2-
+// using for loop
+for (let i_ = 10; i_ >= 0; i_--) {
+    console.log(i_);
+}
+console.log("------------------------------------");
 
-// // using do while loop
-// let k_ = 10;
-// do {
-//     console.log(k_);
-//     k_--;
-// } while (k_ >= 0)
-// console.log("------------------------------------");
+// using do while loop
+let k_ = 10;
+do {
+    console.log(k_);
+    k_--;
+} while (k_ >= 0)
+console.log("------------------------------------");
 
-// // using while loop
-// let j_ = 10;
-// while (j_ >= 0) {
-//     console.log(j_);
-//     j_--;
-// }
+// using while loop
+let j_ = 10;
+while (j_ >= 0) {
+    console.log(j_);
+    j_--;
+}
 
-// console.log("----------------------------------------------------------");
+console.log("----------------------------------------------------------");
 
-// // 3 - 
-// let n = 20;
-// for (let i = 0; i <= 20; i++) {
-//     console.log(i);
-// }
+// 3 - 
+let n = 20;
+for (let i = 0; i <= 20; i++) {
+    console.log(i);
+}
 
-// console.log("------------------------------------");
+console.log("------------------------------------");
 
-// // 4-
-// let i = 1;
-// do {
-//     console.log('#'.repeat(i));
-//     i++;
-// } while (i < 7);
+// 4-
+let i = 1;
+do {
+    console.log('#'.repeat(i));
+    i++;
+} while (i < 7);
 
-// console.log("------------------------------------");
+console.log("------------------------------------");
 
-// // 5 - 
-// for (let i = 0; i <= 10; i++) {
-//     console.log(`${i} x ${i} = ${i * i}`);
-// }
+// 5 - 
+for (let i = 0; i <= 10; i++) {
+    console.log(`${i} x ${i} = ${i * i}`);
+}
 
-// console.log("------------------------------------");
+console.log("------------------------------------");
 
-// // 6 - 
+// 6 - 
 
-// console.log('i', '   i^2', '  i^3');
-// for (let i = 0; i <= 10; i++) {
-//     console.log(i, `    ${i ** 2}`, `    ${i ** 3}`);
-// }
+console.log('i', '   i^2', '  i^3');
+for (let i = 0; i <= 10; i++) {
+    console.log(i, `    ${i ** 2}`, `    ${i ** 3}`);
+}
 
-// console.log("------------------------------------");
+console.log("------------------------------------");
 
-// // 7 -
+// 7 -
 
-// for (let i = 0; i <= 100; i++) {
-//     if (i % 2 === 0) {
-//         console.log(i);
-//     }
-//     continue;
-// }
+for (let i = 0; i <= 100; i++) {
+    if (i % 2 === 0) {
+        console.log(i);
+    }
+    continue;
+}
 
-// console.log("------------------------------------");
+console.log("------------------------------------");
 
-// // 8-
+// 8-
 
-// for (let i = 0; i <= 100; i++) {
-//     if (i % 2 !== 0) {
-//         console.log(i);
-//     }
-//     continue;
-// }
+for (let i = 0; i <= 100; i++) {
+    if (i % 2 !== 0) {
+        console.log(i);
+    }
+    continue;
+}
 
-// console.log("------------------------------------");
+console.log("------------------------------------");
 
-// // 9 - 
-// for (let i = 0; i <= 100; i++) {
-//     if (i <= 1) {
-//         continue;
-//     } else {
-//         let num = i;
-//         let isPrime = true;
-//         for (let j = 2; j < num; j++) {
-//             if (num % j === 0) {
-//                 isPrime = false;
-//             }
-//         }
-//         if (isPrime) {
-//             console.log(num);
-//         }
-//     }
-// }
+// 9 - 
+for (let i = 0; i <= 100; i++) {
+    if (i <= 1) {
+        continue;
+    } else {
+        let num = i;
+        let isPrime = true;
+        for (let j = 2; j < num; j++) {
+            if (num % j === 0) {
+                isPrime = false;
+            }
+        }
+        if (isPrime) {
+            console.log(num);
+        }
+    }
+}
 
-// console.log("------------------------------------");
+console.log("------------------------------------");
 
-// // 10 - 
-// let sum = 0;
-// for (let i = 1; i <= 100; i++) {
-//     sum += i;
-// }
-// console.log(`sum = ${sum}`);
+// 10 - 
+let sum = 0;
+for (let i = 1; i <= 100; i++) {
+    sum += i;
+}
+console.log(`sum = ${sum}`);
 
-// console.log("------------------------------------");
+console.log("------------------------------------");
 
-// // 11-
-// let oddSum = 0;
-// let evenSum = 0;
+// 11-
+let oddSum = 0;
+let evenSum = 0;
 
-// for (let i = 0; i <= 100; i++) {
-//     if (i % 2 === 0) {
-//         evenSum += i
-//     } else {
-//         oddSum += i
-//     }
-// }
-// console.log(`evenSum = ${evenSum}\noddSum = ${oddSum}`);
+for (let i = 0; i <= 100; i++) {
+    if (i % 2 === 0) {
+        evenSum += i
+    } else {
+        oddSum += i
+    }
+}
+console.log(`evenSum = ${evenSum}\noddSum = ${oddSum}`);
 
-// console.log("------------------------------------");
+console.log("------------------------------------");
 
-// // 12 -
-// let evenSum_2 = 0;
-// let oddSum_2 = 0;
-// for (let i = 0; i <= 100; i++) {
-//     if (i % 2 === 0) {
-//         evenSum_2 += i
-//     } else {
-//         oddSum_2 += i
-//     }
-// }
-// console.log([oddSum_2, evenSum_2]);
+// 12 -
+let evenSum_2 = 0;
+let oddSum_2 = 0;
+for (let i = 0; i <= 100; i++) {
+    if (i % 2 === 0) {
+        evenSum_2 += i
+    } else {
+        oddSum_2 += i
+    }
+}
+console.log([oddSum_2, evenSum_2]);
 
-// console.log("------------------------------------");
+console.log("------------------------------------");
 
-// // 13 -
-// let arrayRandom = [];
-// for (let i = 0; i < 5; i++) {
-//     arrayRandom.push(Math.floor(Math.random() * 100));
-// }
-// console.log(arrayRandom);
+// 13 -
+let arrayRandom = [];
+for (let i = 0; i < 5; i++) {
+    arrayRandom.push(Math.floor(Math.random() * 100));
+}
+console.log(arrayRandom);
 
-// console.log("------------------------------------");
+console.log("------------------------------------");
 
-// // 14 -
-// let arr = [];
-// while (true) {
-//     let rndNumber = Math.floor(Math.random() * 10);
-//     if (arr.length === 0) {
-//         arr.push(rndNumber);
-//     } else {
-//         let times = 0;
-//         for (let i = 0; i < arr.length; i++) {
-//             if (arr[i] === rndNumber) {
-//                 times++;
-//             }
-//         }
-//         if (times < 1) {
-//             arr.push(rndNumber);
-//         }
-//         if (arr.length === 5) {
-//             break;
-//         }
-//     }
+// 14 -
+let arr = [];
+while (true) {
+    let rndNumber = Math.floor(Math.random() * 10);
+    if (arr.length === 0) {
+        arr.push(rndNumber);
+    } else {
+        let times = 0;
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] === rndNumber) {
+                times++;
+            }
+        }
+        if (times < 1) {
+            arr.push(rndNumber);
+        }
+        if (arr.length === 5) {
+            break;
+        }
+    }
 
-// }
-// console.log("unique arr = ", arr);
+}
+console.log("unique arr = ", arr);
 
-// console.log("------------------------------------");
+console.log("------------------------------------");
 
 // 15 -
 
