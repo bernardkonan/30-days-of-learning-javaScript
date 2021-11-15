@@ -1,0 +1,28 @@
+:root {
+  --color-1: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.title {
+  padding: 20px 0;
+  text-align: center;
+  background-color: var(--color-1);
+  color: #fff;
+}
+
+.title h1 {
+  font-size: 1.8rem;
+  font-family: "Roboto medium";
+  font-weight: 900;
+}
+
+main {
+  margin: 10px 20%;
+  text-align: justify;
+}
