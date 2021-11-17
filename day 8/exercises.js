@@ -84,15 +84,3 @@ Object.entries(users).forEach(user => {
 
     }
 })
-
-const entries = Object.entries(users);
-for (let i = 1; i < Object.entries(users).length; i++) {
-    if (entries[i][1].skills.length > moreSkills) {
-        moreSkills = entries[i][1].skills.length;
-    }
-}
-for (let i = 0; i < Object.entries(users).length; i++) {
-    if (entries[i][1].skills.length === moreSkills) {
-        console.log(Object.entries[i][0]);
-    }
-}
