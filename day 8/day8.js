@@ -126,6 +126,22 @@ console.log(person);
 
 // object Methods
 
-//Object.assign -> to copy an object without modifying the original object
+// Object.assign -> to copy an object without modifying the original object
 const similarPerson = Object.assign({}, person);
+console.log(similarPerson);
 
+// Getting object keys with using object.keys()
+const personProperties = Object.keys(similarPerson);
+console.log(personProperties);
+
+// Getting object values with using object.values()
+const valuesPerson = Object.values(similarPerson);
+console.log(valuesPerson);
+
+// Getting keys and values using Object.entries()
+const valuesAndKeys = Object.entries(similarPerson);
+console.log(valuesAndKeys);
+
+// check an existing property in an object
+const itExist = similarPerson.hasOwnProperty('firstName');
+if (itExist) console.log("You've a first name");
