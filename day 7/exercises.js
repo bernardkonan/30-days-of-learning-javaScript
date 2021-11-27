@@ -2,7 +2,7 @@
     Function exercise section
 */
 
-// Exercise : length 1
+// Exercise : level 1
 
 // 1 - 
 function fullName() {
