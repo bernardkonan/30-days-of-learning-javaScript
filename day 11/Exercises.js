@@ -182,4 +182,4 @@ newStudent.skills.dataBase.push({
 });
 newStudent.skills.dataScience.push('SQL');
 
-console.log(newStudent);
+console.log(student, newStudent);
