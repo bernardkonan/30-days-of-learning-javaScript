@@ -19,11 +19,9 @@ try {
     await fetch("https://jsonplaceholder.typicode.com/users")
       .then((json) => json.json())
       .then((res) => {
-        res.array.forEach((user) => {
-          document.getElementById("users").innerHTML += ``;
-        });
+        return res
       });
-  };
+  }
 } catch (err) {
   console.log("Not working");
 } finally {
