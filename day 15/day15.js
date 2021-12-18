@@ -2,62 +2,62 @@
     LEARN ABOUT CLASS 
 */
 
-// // defining a class
-// class Person1 {
+// defining a class
+class Person1 {
 
-// }
-// class Car {
+}
+class Car {
 
-// }
+}
 
-// // Class instantiation -> create an object from a class.
-// const person = new Person1();
-// console.log(person);
+// Class instantiation -> create an object from a class.
+const person = new Person1();
+console.log(person);
 
-// const car = new Car();
-// console.log(typeof car); // object
+const car = new Car();
+console.log(typeof car); // object
 
-// // class constructor
-// class Person {
-//     constructor(firstName, lastName) {
-//         this.firstName = firstName;
-//         this.lastName = lastName;
-//     }
-//     getFullName() {
-//         const fullName = this.firstName + ' ' + this.lastName;
-//         return fullName;
-//     }
-// }
-// const pers = new Person();
-// console.log(pers); //Person { firstName: undefined, lastName: undefined }
+// class constructor
+class Person {
+    constructor(firstName, lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+    getFullName() {
+        const fullName = this.firstName + ' ' + this.lastName;
+        return fullName;
+    }
+}
+const pers = new Person();
+console.log(pers); //Person { firstName: undefined, lastName: undefined }
 
-// // pass value to each property
-// pers.firstName = "Koffi N'guessan Bernard";
-// pers.lastName = "Konan";
+// pass value to each property
+pers.firstName = "Koffi N'guessan Bernard";
+pers.lastName = "Konan";
 
-// console.log(pers); // Person { firstName: "Koffi N'guessan Bernard", lastName: 'Konan' }
+console.log(pers); // Person { firstName: "Koffi N'guessan Bernard", lastName: 'Konan' }
 
-// // add more properties
+// add more properties
 
-// pers.age = 25;
-// pers.country = "Côte d'ivoire";
-// pers.city = "Yamoussoukro";
+pers.age = 25;
+pers.country = "Côte d'ivoire";
+pers.city = "Yamoussoukro";
 
-// console.log(pers);
+console.log(pers);
 
-// // add default value to a class constructor
-// class Car1 {
-//     constructor(nbDeRoues = 4, marque = "Toyota v507", couleur = "Rouge", constructeur = "Toyota") {
-//         this.nbDeRoues = nbDeRoues;
-//         this.marque = marque;
-//         this.couleur = couleur;
-//     }
-// }
+// add default value to a class constructor
+class Car1 {
+    constructor(nbDeRoues = 4, marque = "Toyota v507", couleur = "Rouge", constructeur = "Toyota") {
+        this.nbDeRoues = nbDeRoues;
+        this.marque = marque;
+        this.couleur = couleur;
+    }
+}
 
-// const car1 = new Car1();
-// const car2 = new Car1(4, 'Renault', "Bleu", "Toyota");
+const car1 = new Car1();
+const car2 = new Car1(4, 'Renault', "Bleu", "Toyota");
 
-// console.log(car1, car2);
+console.log(car1, car2);
 
 
 // // Class Methods -> could be a regular method or setter/getter
