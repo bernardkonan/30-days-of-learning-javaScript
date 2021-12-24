@@ -24,4 +24,19 @@ doPromise.then(value => {
 
 // Fetch API
 
-doPromise
+const url = "https://jsonplaceholder.typicode.com/users";
+
+// fetch(url)
+//     .then(resp => resp.json())
+//     .then(json => console.log(json))
+//     .catch(err => console.log(err.message));
+
+// use Await and Async
+
+const fetchUsers = async () => {
+    const response = await fetch(url)
+    const json = await response.json();
+    console.log(json);
+}
+
+fetchUsers();
