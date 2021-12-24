@@ -1,7 +1,6 @@
 // Exercise 1
 const countriesAPI = 'https://restcountries.com/v2/all'
-const catsAPI = ''
-
+const catsAPI = 'https://api.thecatapi.com/v1/breeds'
 // // 1 -
 // fetch(countriesAPI)
 //     .then(resp => resp.json())
@@ -41,4 +40,26 @@ const findLargestCountries = () => {
         .then(json => console.log(json[0].weight))
 }
 
-findLargestCountries(catsAPI)
+findLargestCountries(catsAPI);
+
+// closures
+
+const makeOperations = () => {
+    const result = 10;
+    const times = () => {
+        return 10 * result;
+    }
+    return result + times();
+}
+
+makeOperations();
+
+
+const api = (url) => {
+    const res = async (url) => {
+        return await fetch(url).then(res => res.json())
+    }
+    res(url).then(json => console.log(json))
+}
+
+api(catsAPI);
